@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smartwatch Landing Page</title>
+  <link href="./output.css" rel="stylesheet">  <!-- Tailwind CSS -->
+  <link rel="stylesheet" href="style.css" /> <!-- Custom theme CSS -->
+  <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" /> <!-- AOS Animation CSS -->
+   <link rel="icon" href="./public/flutter.png" type="image/x-icon" />
+
+</head>
+<body class="bg-white text-gray-900  transition duration-500">
+
+  <!-- Theme Toggle -->
+  <div class="flex justify-end p-4">
+   <button id="themeToggle" class="bg-white px-4 py-2 rounded">
+        🌞 / 🌙 Toggle Theme
+    </button>
+  </div>
+
+  <!-- Hero -->
+  <section class="text-center py-12 px-4 bg-white " id="mode">
+    <h1 class="text-4xl font-bold mb-4">Smartwatch</h1>
+    <p class="mb-6 text-lg">The Ultimate Smart Wearable</p>
+    <div class="space-x-4">
+      <a href="#pricing" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Buy Now</a>
+      <a href="#features" class="border px-6 py-2 rounded hover:bg-gray-200 dark:hover:bg-gray-700">Learn More</a>
+    </div>
+  </section>
+
+  <!-- Product Gallery -->
+  <section class="grid grid-cols-2 md:grid-cols-4 gap-4 p-6 justify-center">
+    <img src="./public/watch_blue.png" alt="Smartwatch 1" width="300px" class=" rounded cursor-pointer hover:scale-105 transition">
+    <img src="./public/watch_blue_black.png" alt="Smartwatch 2" width="300px" class="rounded cursor-pointer hover:scale-105 transition">
+    <img src="./public/watch_pink.png" alt="Smartwatch 3" width="300px" class="rounded cursor-pointer hover:scale-105 transition">
+    <img src="./public/watch_skyblue.png" alt="Smartwatch 4" width="300px" class="rounded cursor-pointer hover:scale-105 transition">
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="py-12 px-6 bg-blue-950">
+    <h2 class="text-2xl font-bold text-center mb-8">Product Features</h2>
+    <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+      <div class="bg-white hover:scale-105 transition  p-4 rounded shadow">❤️ Heart Rate Monitoring</div>
+      <div class="bg-white hover:scale-105 transition  p-4 rounded shadow">🏋️ Fitness Tracking</div>
+      <div class="bg-white hover:scale-105 transition  p-4 rounded shadow">🔔 Notifications</div>
+      <div class="bg-white hover:scale-105 transition  p-4 rounded shadow">🔋 Long Battery Life</div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-12 ">
+    <h2 class="text-2xl font-bold text-center mb-8">Testimonials</h2>
+    <div class="grid md:grid-cols-3 gap-6 px-6 max-w-6xl mx-auto ">
+      <div class="bg-white  p-6 border-white border-1 rounded  shadow hover:scale-105 transition  hover:bg-gray-400">
+        ⭐⭐⭐⭐⭐<br><strong>Sarah W.</strong><br>
+        <p>"Amazing features with great design!"</p>
+      </div>
+      <div class="bg-white  p-6 border-white border-1 rounded shadow hover:scale-105 transition hover:bg-gray-400">
+        ⭐⭐⭐⭐⭐<br><strong>John D.</strong><br>
+        <p>"I enjoy the fitness tracking. Very helpful!"</p>
+      </div>
+      <div class="bg-white p-6 border-white border-1 rounded shadow hover:scale-105 transition  hover:bg-gray-400 ">
+        ⭐⭐⭐⭐⭐<br><strong>Emily R.</strong><br>
+        <p>"Battery lasts long and it's super easy to use."</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="py-12 px-6 bg-blue-950">
+    <h2 class="text-2xl font-bold text-center mb-8">Pricing</h2>
+    <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+      <div class="bg-white  p-6 rounded shadow text-center hover:scale-105 transition">
+        <h3 class="text-xl font-semibold mb-2">Basic</h3>
+        <p class="text-3xl font-bold mb-4">$199</p>
+        <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Buy</button>
+      </div>
+      <div class="bg-white  p-6 rounded shadow text-center hover:scale-105 transition">
+        <h3 class="text-xl font-semibold mb-2">Standard</h3>
+        <p class="text-3xl font-bold mb-4">$249</p>
+        <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Buy</button>
+      </div>
+      <div class="bg-white  p-6 rounded shadow text-center hover:scale-105 transition">
+        <h3 class="text-xl font-semibold mb-2">Premium</h3>
+        <p class="text-3xl font-bold mb-4">$299</p>
+        <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Buy</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 text-sm   ">
+    © 2025 Smartwatch Inc. All rights reserved.
+  </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
