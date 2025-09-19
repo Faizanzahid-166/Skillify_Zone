@@ -1,0 +1,19 @@
+html.light body {
+  background-color: white;
+  color: black;
+}
+
+html.dark body {
+  background-color: #121212;
+  color: white;
+}
+
+/* Optional overrides for other elements */
+html.dark .bg-white  {
+  background-color: #000000 !important;
+}
+
+/* html.light button {
+  background-color: #e2e8f0;
+  color: black;
+} */

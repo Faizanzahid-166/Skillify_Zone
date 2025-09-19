@@ -1,0 +1,26 @@
+{
+  "name": "product_page",
+  "version": "1.0.0",
+  "description": "Create an attractive and interactive product page.",
+  "keywords": [
+    "html",
+    "tailwind",
+    "theme_toggle",
+    "product_page"
+  ],
+  "license": "ISC",
+  "author": "faizan zahid",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
